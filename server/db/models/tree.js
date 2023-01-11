@@ -17,7 +17,7 @@ module.exports = (sequelize, DataTypes) => {
     tree: {
       type: DataTypes.STRING,
       allowNull: false,
-      unqie: true
+      unique: true
     },
     location: {
       type: DataTypes.STRING
